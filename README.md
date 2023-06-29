@@ -5,7 +5,7 @@
 
 * First you have to run this snippet from this [stackoverflow post](https://stackoverflow.com/questions/63168301/how-to-change-the-python-version-from-default-3-5-to-3-8-of-google-colab)
   > change the version as you like in both `!sudo apt-get install python3.7` and `!sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1`
-```
+```python
 #**Add python version you wish** to list
 !sudo apt-get update -y
 !sudo apt-get install python3.7
